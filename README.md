@@ -149,4 +149,13 @@ Notas del Dia 5 (9/8/2019)
 Cada rama del if es una implementacion, se trata de objetos polimorficos.
 Utilizar doble despacho para proveer acceso a cada implementacion.
 
-clave de la solucion 01numeros
+clave de la solucion numeros: 01numeros
+
+
+Notas del Dia 6 (12/8/2019)
+---------------------------
+
+clave de la solucion idiom: idiom01
+clave de la solucion stack: epa!
+clave de la solucion packman: legustanlasvitaminas
+
