@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: ar.net.mgardos.NumeroTest
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 1, Errors: 7, Skipped: 0, Time elapsed: 0.23 s <<< FAILURE! - in ar.net.mgardos.NumeroTest
+test06SumaDeFracciones(ar.net.mgardos.NumeroTest)  Time elapsed: 0.029 s  <<< ERROR!
+java.lang.StackOverflowError
+
+test11MultiplicacionDeEnteroPorFraccion(ar.net.mgardos.NumeroTest)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.ClassCastException: class ar.net.mgardos.Fraccion cannot be cast to class ar.net.mgardos.Entero (ar.net.mgardos.Fraccion and ar.net.mgardos.Entero are in unnamed module of loader 'app')
+	at ar.net.mgardos.NumeroTest.test11MultiplicacionDeEnteroPorFraccion(NumeroTest.java:149)
+
+test12MultiplicacionDeFraccionPorEntero(ar.net.mgardos.NumeroTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.ClassCastException: class ar.net.mgardos.Entero cannot be cast to class ar.net.mgardos.Fraccion (ar.net.mgardos.Entero and ar.net.mgardos.Fraccion are in unnamed module of loader 'app')
+	at ar.net.mgardos.NumeroTest.test12MultiplicacionDeFraccionPorEntero(NumeroTest.java:154)
+
+test13DivisionDeEnteroPorFraccion(ar.net.mgardos.NumeroTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.ClassCastException: class ar.net.mgardos.Fraccion cannot be cast to class ar.net.mgardos.Entero (ar.net.mgardos.Fraccion and ar.net.mgardos.Entero are in unnamed module of loader 'app')
+	at ar.net.mgardos.NumeroTest.test13DivisionDeEnteroPorFraccion(NumeroTest.java:162)
+
+test14DivisionDeFraccionPorEntero(ar.net.mgardos.NumeroTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.ClassCastException: class ar.net.mgardos.Entero cannot be cast to class ar.net.mgardos.Fraccion (ar.net.mgardos.Entero and ar.net.mgardos.Fraccion are in unnamed module of loader 'app')
+	at ar.net.mgardos.NumeroTest.test14DivisionDeFraccionPorEntero(NumeroTest.java:167)
+
+test17LaSumaDeFraccionesPuedeDarEntero(ar.net.mgardos.NumeroTest)  Time elapsed: 0.014 s  <<< ERROR!
+java.lang.StackOverflowError
+
+test18LaMultiplicacionDeFraccionesPuedeDarEntero(ar.net.mgardos.NumeroTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.ClassCastException: class ar.net.mgardos.Fraccion cannot be cast to class ar.net.mgardos.Entero (ar.net.mgardos.Fraccion and ar.net.mgardos.Entero are in unnamed module of loader 'app')
+	at ar.net.mgardos.NumeroTest.test18LaMultiplicacionDeFraccionesPuedeDarEntero(NumeroTest.java:204)
+
+test22NoSePuedeDividirFraccionPorCero(ar.net.mgardos.NumeroTest)  Time elapsed: 0.003 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[No se puede dividir por cero]> but was:<[class ar.net.mgardos.Entero cannot be cast to class ar.net.mgardos.Fraccion (ar.net.mgardos.Entero and ar.net.mgardos.Fraccion are in unnamed module of loader 'app')]>
+	at ar.net.mgardos.NumeroTest.test22NoSePuedeDividirFraccionPorCero(NumeroTest.java:233)
+

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ar.net.mgardos.stack.StackTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.158 s <<< FAILURE! - in ar.net.mgardos.stack.StackTest
+testCanNotPopWhenThereAreNoObjectsInTheStack(ar.net.mgardos.stack.StackTest)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError
+	at ar.net.mgardos.stack.StackTest.testCanNotPopWhenThereAreNoObjectsInTheStack(StackTest.java:91)
+

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ar.net.mgardos.NumeroTest" time="0.23" tests="23" errors="7" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\usuario\IdeaProjects\aoodi_10p\c1-numero\target\test-classes;C:\Users\usuario\IdeaProjects\aoodi_10p\c1-numero\target\classes;C:\Users\usuario\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\usuario\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Archivos de programa\Java\jdk-12.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\usuario\AppData\Local\Temp\surefire4142428122595934832\surefirebooter7485242955741168808.jar C:\Users\usuario\AppData\Local\Temp\surefire4142428122595934832 2019-08-12T16-11-06_623-jvmRun1 surefire6856608379365414702tmp surefire_18375374303303271563tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\usuario\IdeaProjects\aoodi_10p\c1-numero\target\test-classes;C:\Users\usuario\IdeaProjects\aoodi_10p\c1-numero\target\classes;C:\Users\usuario\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\usuario\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\usuario"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Archivos de programa\Java\jdk-12.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\usuario\IdeaProjects\aoodi_10p\c1-numero"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\usuario\AppData\Local\Temp\surefire4142428122595934832\surefirebooter7485242955741168808.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="user.name" value="usuario"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\usuario\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\usuario\AppData\Local\Temp\"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="C:\Users\usuario\IdeaProjects\aoodi_10p\c1-numero"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Archivos de programa\Java\jdk-12.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\usuario\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\usuario\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\usuario\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\usuario\AppData\Local\Programs\Python\Python37-32;C:\Users\usuario\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\apache-maven-3.6.1\bin\;C:\Archivos de programa\Java\jdk-12.0.2\bin\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="test01EsCeroDevuelveTrueSoloParaElCero" classname="ar.net.mgardos.NumeroTest" time="0.005"/>
+  <testcase name="test02EsUnoDevuelveTrueSoloParaElUno" classname="ar.net.mgardos.NumeroTest" time="0.001"/>
+  <testcase name="test03SumaDeEnteros" classname="ar.net.mgardos.NumeroTest" time="0.001"/>
+  <testcase name="test04MultiplicacionDeEnteros" classname="ar.net.mgardos.NumeroTest" time="0.001"/>
+  <testcase name="test05DivisionDeEnteros" classname="ar.net.mgardos.NumeroTest" time="0"/>
+  <testcase name="test06SumaDeFracciones" classname="ar.net.mgardos.NumeroTest" time="0.029">
+    <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
+</error>
+  </testcase>
+  <testcase name="test07MultiplicacionDeFracciones" classname="ar.net.mgardos.NumeroTest" time="0.001"/>
+  <testcase name="test08DivisionDeFracciones" classname="ar.net.mgardos.NumeroTest" time="0.001"/>
+  <testcase name="test09SumaDeEnteroYFraccion" classname="ar.net.mgardos.NumeroTest" time="0.001"/>
+  <testcase name="test10SumaDeFraccionYEntero" classname="ar.net.mgardos.NumeroTest" time="0.001"/>
+  <testcase name="test11MultiplicacionDeEnteroPorFraccion" classname="ar.net.mgardos.NumeroTest" time="0.003">
+    <error message="class ar.net.mgardos.Fraccion cannot be cast to class ar.net.mgardos.Entero (ar.net.mgardos.Fraccion and ar.net.mgardos.Entero are in unnamed module of loader &apos;app&apos;)" type="java.lang.ClassCastException">java.lang.ClassCastException: class ar.net.mgardos.Fraccion cannot be cast to class ar.net.mgardos.Entero (ar.net.mgardos.Fraccion and ar.net.mgardos.Entero are in unnamed module of loader 'app')
+	at ar.net.mgardos.NumeroTest.test11MultiplicacionDeEnteroPorFraccion(NumeroTest.java:149)
+</error>
+  </testcase>
+  <testcase name="test12MultiplicacionDeFraccionPorEntero" classname="ar.net.mgardos.NumeroTest" time="0.001">
+    <error message="class ar.net.mgardos.Entero cannot be cast to class ar.net.mgardos.Fraccion (ar.net.mgardos.Entero and ar.net.mgardos.Fraccion are in unnamed module of loader &apos;app&apos;)" type="java.lang.ClassCastException">java.lang.ClassCastException: class ar.net.mgardos.Entero cannot be cast to class ar.net.mgardos.Fraccion (ar.net.mgardos.Entero and ar.net.mgardos.Fraccion are in unnamed module of loader 'app')
+	at ar.net.mgardos.NumeroTest.test12MultiplicacionDeFraccionPorEntero(NumeroTest.java:154)
+</error>
+  </testcase>
+  <testcase name="test13DivisionDeEnteroPorFraccion" classname="ar.net.mgardos.NumeroTest" time="0.001">
+    <error message="class ar.net.mgardos.Fraccion cannot be cast to class ar.net.mgardos.Entero (ar.net.mgardos.Fraccion and ar.net.mgardos.Entero are in unnamed module of loader &apos;app&apos;)" type="java.lang.ClassCastException">java.lang.ClassCastException: class ar.net.mgardos.Fraccion cannot be cast to class ar.net.mgardos.Entero (ar.net.mgardos.Fraccion and ar.net.mgardos.Entero are in unnamed module of loader 'app')
+	at ar.net.mgardos.NumeroTest.test13DivisionDeEnteroPorFraccion(NumeroTest.java:162)
+</error>
+  </testcase>
+  <testcase name="test14DivisionDeFraccionPorEntero" classname="ar.net.mgardos.NumeroTest" time="0.001">
+    <error message="class ar.net.mgardos.Entero cannot be cast to class ar.net.mgardos.Fraccion (ar.net.mgardos.Entero and ar.net.mgardos.Fraccion are in unnamed module of loader &apos;app&apos;)" type="java.lang.ClassCastException">java.lang.ClassCastException: class ar.net.mgardos.Entero cannot be cast to class ar.net.mgardos.Fraccion (ar.net.mgardos.Entero and ar.net.mgardos.Fraccion are in unnamed module of loader 'app')
+	at ar.net.mgardos.NumeroTest.test14DivisionDeFraccionPorEntero(NumeroTest.java:167)
+</error>
+  </testcase>
+  <testcase name="test15UnaFraccionPuedeSerIgualAUnEntero" classname="ar.net.mgardos.NumeroTest" time="0"/>
+  <testcase name="test16LasFraccionesAparentesSonIguales" classname="ar.net.mgardos.NumeroTest" time="0.001"/>
+  <testcase name="test17LaSumaDeFraccionesPuedeDarEntero" classname="ar.net.mgardos.NumeroTest" time="0.014">
+    <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
+</error>
+  </testcase>
+  <testcase name="test18LaMultiplicacionDeFraccionesPuedeDarEntero" classname="ar.net.mgardos.NumeroTest" time="0.002">
+    <error message="class ar.net.mgardos.Fraccion cannot be cast to class ar.net.mgardos.Entero (ar.net.mgardos.Fraccion and ar.net.mgardos.Entero are in unnamed module of loader &apos;app&apos;)" type="java.lang.ClassCastException">java.lang.ClassCastException: class ar.net.mgardos.Fraccion cannot be cast to class ar.net.mgardos.Entero (ar.net.mgardos.Fraccion and ar.net.mgardos.Entero are in unnamed module of loader 'app')
+	at ar.net.mgardos.NumeroTest.test18LaMultiplicacionDeFraccionesPuedeDarEntero(NumeroTest.java:204)
+</error>
+  </testcase>
+  <testcase name="test19LaDivisionDeEnterosPuedeDarFraccion" classname="ar.net.mgardos.NumeroTest" time="0"/>
+  <testcase name="test20LaDivisionDeFraccionesPuedeDarEntero" classname="ar.net.mgardos.NumeroTest" time="0.001"/>
+  <testcase name="test21NoSePuedeDividirEnteroPorCero" classname="ar.net.mgardos.NumeroTest" time="0"/>
+  <testcase name="test22NoSePuedeDividirFraccionPorCero" classname="ar.net.mgardos.NumeroTest" time="0.003">
+    <failure message="expected:&lt;[No se puede dividir por cero]&gt; but was:&lt;[class ar.net.mgardos.Entero cannot be cast to class ar.net.mgardos.Fraccion (ar.net.mgardos.Entero and ar.net.mgardos.Fraccion are in unnamed module of loader &apos;app&apos;)]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[No se puede dividir por cero]> but was:<[class ar.net.mgardos.Entero cannot be cast to class ar.net.mgardos.Fraccion (ar.net.mgardos.Entero and ar.net.mgardos.Fraccion are in unnamed module of loader 'app')]>
+	at ar.net.mgardos.NumeroTest.test22NoSePuedeDividirFraccionPorCero(NumeroTest.java:233)
+]]></failure>
+  </testcase>
+  <testcase name="test23NoSePuedeCrearFraccionConDenominadorCero" classname="ar.net.mgardos.NumeroTest" time="0"/>
+</testsuite>
